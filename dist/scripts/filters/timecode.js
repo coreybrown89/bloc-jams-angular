@@ -4,6 +4,10 @@
 
 		return function(seconds) {
 
+			var timer = buzz.toTimer(seconds);
+			return timer;
+
+			/*
 		    var seconds = Number.parseFloat(seconds);
 			
 			if (Number.isNaN(seconds)) {
@@ -22,7 +26,7 @@
 		    
 		    output += remainingSeconds;
 
-			return output;
+			return output;*/
 		};
 	}
 
